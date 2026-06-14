@@ -12,7 +12,7 @@ import CTASection from '../components/CTA'
 function Card(props) {
     return(
         <div className="flex flex-col border border-solid border-[#dcdfe5]">
-            <div className="w-full h-64 md:h-80 lg:h-90 overflow-hidden">
+            <div className="w-full h-93 md:h-80 lg:h-90 overflow-hidden">
                 <img src={props.hisimg} alt="" className="block w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-1.75 py-5 px-4">
@@ -55,7 +55,7 @@ function DoctorSection() {
       {/* HERO SECTION */}
       <section
         style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(${bg_image})` }}
-        className='relative w-full py-32 pt-20 lg:py-50 lg:pt-32 bg-cover bg-top bg-no-repeat'
+        className='relative w-full py-37 pt-20 lg:py-50 lg:pt-32 bg-cover bg-top bg-no-repeat'
       >
         <div className="flex flex-col bottom-8 left-4 md:bottom-10 md:left-6 lg:bottom-13 lg:left-8 gap-2 lg:gap-3 absolute">
           <p className="text-[10px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase">

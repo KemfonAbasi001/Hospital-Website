@@ -35,7 +35,7 @@ function Card(props) {
         <div onClick={scrollToTop} className="w-full relative h-95 overflow-hidden group rounded-2xl md:h-80 lg:h-92.5 cursor-pointer">
             <img src={props.imgSrc} alt="" className="h-full w-full block object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"/>
             <div className="absolute inset-0 bg-linear-to-b from-transparent to-black/40"></div>
-            <div className="absolute bottom-8 left-6 lg:bottom-7 lg:left-5 flex flex-col gap-0">
+            <div className="absolute bottom-8 left-6 right-6 lg:bottom-7 lg:left-5 flex flex-col gap-0">
                 <h1 className="text-[28px] md:text-[24px] lg:text-[28px] font-normal text-[#FFFFFF] font-playfair">{props.title}</h1>
                 <p className="text-[15px] md:text-[13px] lg:text-[14px] leading-5 tracking-[.35px] font-normal text-[#FFFFFF] font-inter">{props.details}</p>
                 <a href="" className="text-[15px] lg:text-[14px] font-medium mt-2 text-[#D19F47] flex gap-1 items-center">
@@ -54,7 +54,6 @@ function Card(props) {
 function ServiceSection() {
   return (
     <>
-      {/* HERO SECTION */}
       <section
         style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(${bg_image})` }}
         className='relative w-full py-65 pt-40 lg:py-50 lg:pt-32 bg-cover bg-center bg-no-repeat'
@@ -63,20 +62,20 @@ function ServiceSection() {
           <p className="text-[12px] md:text-[12px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase">
             Centers of Excellence
           </p>
-          <h1 className="text-[60px] md:text-[44px] lg:text-[60px] leading-tight lg:leading-15 font-semibold text-[#FFFFFF] font-playfair">
+          <h1 className="text-[50px] md:text-[44px] lg:text-[60px] leading-tight lg:leading-15 font-semibold text-[#FFFFFF] font-playfair">
             <span className='italic'>25+ Specialties, </span> One Standard
           </h1>
-          <p className="text-[19px] md:text-[16px] lg:text-[20px] leading-87lg:leading-7 font-normal text-[#B3B3B3]">
+          <p className="text-[17px] md:text-[16px] lg:text-[20px] leading-87lg:leading-7 font-normal text-[#B3B3B3]">
             Every department at Elysium operates at the highest level of clinical excellence.
           </p>
         </div>
       </section>
 
-      {/* CARDS SECTION */}
+
       <section className='w-full py-16 lg:py-30 flex justify-center'>
         <div className="w-[93%] flex flex-col gap-10 lg:gap-15">
 
-          {/* Section Header */}
+
           <div className="text-center flex flex-col gap-2 lg:gap-3">
             <p className="text-[12px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase">
               200+ Physicians
@@ -89,7 +88,7 @@ function ServiceSection() {
             </p>
           </div>
 
-          {/* Grid: 1 col mobile, 2 col tablet (770–1020px), 3 col desktop */}
+
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5 lg:gap-7">
             <Card imgSrc={one}      title='Cardiology'                details='Advanced cardiac diagnostics, interventional procedures, and heart surgery.' />
             <Card imgSrc={two}      title='Neurology & Neurosurgery'  details='Comprehensive brain and nervous system care with cutting-edge imaging.' />
