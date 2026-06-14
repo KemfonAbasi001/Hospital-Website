@@ -345,7 +345,7 @@ function NavBar() {
             </div>
 
             <p className="text-white/30 text-xs tracking-widest uppercase text-center">
-              Meridian Medical Center
+              Medical Center
             </p>
           </div>
         </div>
