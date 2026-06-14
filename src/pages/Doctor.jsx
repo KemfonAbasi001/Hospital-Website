@@ -206,11 +206,11 @@ function Card({ hisimg, doctorname, specialty, doctorcollege, doctordetails, doc
         <img src={hisimg} alt={doctorname} className="block w-full h-full object-cover" />
       </div>
       <div className="flex flex-col gap-1.75 py-5 px-4">
-        <h2 className="text-[18px] md:text-[19px] lg:text-[20px] leading-7 font-semibold text-[#151C28] font-playfair">
+        <h2 className="text-[20px] md:text-[19px] lg:text-[20px] leading-7 font-semibold text-[#151C28] font-playfair">
           {doctorname}
         </h2>
-        <p className="text-[13px] lg:text-[14px] leading-5 font-normal text-[#DDA23C] font-inter">{specialty}</p>
-        <p className="text-[12px] leading-4 font-normal text-[#676F7E] flex gap-2 items-center font-inter">
+        <p className="text-[14px] lg:text-[14px] leading-5 font-normal text-[#DDA23C] font-inter">{specialty}</p>
+        <p className="text-[13px] leading-4 font-normal text-[#676F7E] flex gap-2 items-center font-inter">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-muted-foreground mt-0.5 shrink-0">
             <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
             <path d="M22 10v6" />
@@ -218,21 +218,21 @@ function Card({ hisimg, doctorname, specialty, doctorcollege, doctordetails, doc
           </svg>
           {doctorcollege}
         </p>
-        <p className="text-[13px] lg:text-[14px] leading-5.75 font-normal text-[#676F7E] font-inter">{doctordetails}</p>
+        <p className="text-[14px] lg:text-[14px] leading-5.75 font-normal text-[#676F7E] font-inter">{doctordetails}</p>
         <div className="flex flex-col gap-2">
           <div className="flex gap-2 items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" color="#DDA23C" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 shrink-0">
               <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
               <circle cx="12" cy="8" r="6" />
             </svg>
-            <p className="text-[12px] leading-4 font-normal text-[#151C28] font-inter">{doctorg}</p>
+            <p className="text-[14px] leading-4 font-normal text-[#151C28] font-inter">{doctorg}</p>
           </div>
           <div className="flex gap-2 items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" color="#DDA23C" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 shrink-0">
               <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
               <circle cx="12" cy="8" r="6" />
             </svg>
-            <p className="text-[12px] leading-4 font-normal text-[#151C28] font-inter">{docaward}</p>
+            <p className="text-[14px] leading-4 font-normal text-[#151C28] font-inter">{docaward}</p>
           </div>
         </div>
       </div>
@@ -336,14 +336,14 @@ function DoctorSection() {
           <p
             data-reveal
             data-delay="0"
-            className="text-[10px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase"
+            className="text-[12px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase"
           >
             Our Physicians
           </p>
           <h1
             data-reveal
             data-delay="80"
-            className="text-[30px] md:text-[44px] lg:text-[60px] leading-tight lg:leading-15 font-semibold text-white font-playfair"
+            className="text-[33px] md:text-[44px] lg:text-[60px] leading-tight lg:leading-15 font-semibold text-white font-playfair"
           >
             The World's Best <span className="italic">Minds</span> in Medicine
           </h1>
@@ -360,21 +360,21 @@ function DoctorSection() {
           <div className="text-center flex flex-col gap-2 lg:gap-3">
             <p
               data-reveal
-              className="text-[10px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase"
+              className="text-[12px] md:text-[11px] lg:text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C] uppercase"
             >
               200+ Physicians
             </p>
             <h2
               data-reveal
               data-delay="80"
-              className="text-[30px] md:text-[38px] lg:text-[48px] leading-tight lg:leading-12 font-semibold text-[#151C28] font-playfair"
+              className="text-[29px] md:text-[38px] lg:text-[48px] leading-tight lg:leading-12 font-semibold text-[#151C28] font-playfair"
             >
               Experts Who Define Excellence
             </h2>
             <p
               data-reveal
               data-delay="160"
-              className="text-[14px] md:text-[16px] lg:text-[18px] leading-6 lg:leading-6.5 font-normal text-[#676F7E] max-w-2xl mx-auto"
+              className="text-[15px] md:text-[16px] lg:text-[18px] leading-6 lg:leading-6.5 font-normal text-[#676F7E] max-w-2xl mx-auto"
             >
               Each physician at Elysium is a leader in their specialty — trained at the world's most prestigious institutions.
             </p>

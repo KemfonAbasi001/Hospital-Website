@@ -209,7 +209,6 @@ function Card({ imgSrc, title, details }) {
 
   return (
     <div
-      onClick={scrollToTop}
       className="w-full relative h-80 overflow-hidden group rounded-2xl md:h-80 lg:h-96 cursor-pointer isolate block"
     >
       <img
@@ -348,14 +347,14 @@ function ServiceSection() {
             <h2
               data-reveal
               data-delay="80"
-              className="text-[36px] md:text-[38px] lg:text-[48px] leading-tight lg:leading-12 font-semibold text-[#151C28] font-playfair"
+              className="text-[34px] md:text-[38px] lg:text-[48px] leading-tight lg:leading-12 font-semibold text-[#151C28] font-playfair"
             >
               Experts Who Define Excellence
             </h2>
             <p
               data-reveal
               data-delay="160"
-              className="text-[18px] md:text-[16px] lg:text-[18px] leading-6 lg:leading-6.5 font-normal text-[#676F7E] max-w-2xl mx-auto"
+              className="text-[17px] md:text-[16px] lg:text-[18px] leading-6 lg:leading-6.5 font-normal text-[#676F7E] max-w-2xl mx-auto"
             >
               Each physician at Elysium is a leader in their specialty — trained at the world's most prestigious institutions.
             </p>

@@ -168,10 +168,10 @@ function useScrollReveal() {
 function Card(props) {
   return (
     <div className="flex flex-col gap-2 items-stretch justify-center">
-      <p className="text-[12px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C]">{props.number}</p>
-      <h1 className="text-[28px] md:text-[32px] lg:text-[38px] leading-tight lg:leading-10 font-semibold text-[#151C28] font-playfair">{props.title}</h1>
-      <p className="text-[15px] lg:text-[17px] leading-6 font-normal italic text-[#B18230]">{props.subtitle}</p>
-      <p className="text-[15px] md:text-[16px] lg:text-[18px] leading-7 lg:leading-7.5 font-normal text-[#676F7E]">{props.details}</p>
+      <p className="text-[14px] leading-4 tracking-[3.6px] font-medium text-[#DDA23C]">{props.number}</p>
+      <h1 className="text-[28px] md:text-[35px] lg:text-[38px] leading-tight lg:leading-10 font-semibold text-[#151C28] font-playfair">{props.title}</h1>
+      <p className="text-[15px] lg:text-[18px] leading-6 font-normal italic text-[#B18230]">{props.subtitle}</p>
+      <p className="text-[15px] md:text-[17px] lg:text-[18px] leading-7 lg:leading-7.5 font-normal text-[#676F7E]">{props.details}</p>
     </div>
   )
 }
@@ -211,14 +211,14 @@ function HospitalSection() {
           <p
             data-reveal
             data-delay="0"
-            className="text-[10px] md:text-[11px] lg:text-[12px] leading-4 tracking-[4.8px] font-medium text-[#DDA23C] uppercase"
+            className="text-[12px] md:text-[11px] lg:text-[12px] leading-4 tracking-[4.8px] font-medium text-[#DDA23C] uppercase"
           >
             Virtual Tour
           </p>
           <h1
             data-reveal
             data-delay="80"
-            className="text-[40px] md:text-[56px] lg:text-[72px] leading-tight lg:leading-18 font-semibold text-[#FFFFFF] font-playfair"
+            className="text-[46px] md:text-[56px] lg:text-[72px] leading-tight lg:leading-18 font-semibold text-[#FFFFFF] font-playfair"
           >
             A Place Like <br /><span className='italic'>No Other</span>
           </h1>
